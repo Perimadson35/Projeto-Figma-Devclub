@@ -1,0 +1,223 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* menu de navgeção */
+.navigation {
+    margin: 38px 0 0 76px;
+    cursor: pointer;
+}
+
+/* links do menu de navegação */
+.navigation-links {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    width: 79px;
+    height: 29px;
+    color: #989D9C;
+    margin-right: 25px;
+}
+
+/* efeito do pré-click dos links do menu de navegação */
+.navigation-links:hover {
+    opacity: 0.8;
+}
+
+/* efeito do click ativo dos links do menu de navegação */
+.navigation-links:active {
+    opacity: 0.4;
+}
+
+/* botão de login */
+.login-button {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    background: #665AE1;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* efeito do pré-click do botão de login */
+.login-button:hover {
+    opacity: 0.8;
+}
+
+/* efeito do click ativo do botão de login */
+.login-button:active {
+    opacity: 0.4;
+}
+
+/* img com a logo da We Care */
+.wecare-img {
+    width: 568px;
+    height: 500px;
+    margin: 15px 0 0 50px;
+    display: inline-block;
+    position: relative;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+/* seção dos textos principais (apresentação) */
+.main-text-explore {
+    margin: 80px 80px 0 86px;
+    display: inline-block;
+    position: absolute;
+}
+
+/* titulo principal */
+.main-title {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    width: 513px;
+    height: 122px;
+    color: #515151;
+}
+
+/* titulo secundário */
+.second-title {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    width: 448px;
+    height: 71px;
+    color: #515151;
+}
+
+/* parágrafo/texto de apresentação */
+.presentation-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    width: 515px;
+    height: 87px;
+    color: #848484;
+    margin-top: 32px;
+}
+
+/* botão para explorar/conhecer os serviços*/
+.explore-button {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    width: 147px;
+    height: 26.02px;
+    top: 15px;
+    left: 46px;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(173, 255, 0, 1);
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 65px;
+}
+
+/* efeito do pré-click do botão de login */
+.explore-button:hover {
+    opacity: 0.8;
+}
+
+/* efeito do click-ativo do botão de login */
+.explore-button:active {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 1340px) {
+
+    .navigation {
+        display: none;
+    }
+
+    /* img com a logo da We Care */
+    .wecare-img {
+        height: auto;
+        max-width: 90%;
+        margin: 0 auto 24px;
+        padding: 126px 0 0 0;
+        display: block;
+        position: static;
+        filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.5));
+    }
+
+    /* seção dos textos principais (apresentação) */
+    .main-text-explore {
+        height: 50vh;
+        width: 100%;
+        margin: 0;
+        position: static;
+        display: block;
+        text-align: center;
+    }
+
+    /* titulo principal */
+    .main-title {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        color: #515151;
+        width: auto;
+        height: auto;
+    }
+
+    /* titulo secundário */
+    .second-title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: left;
+        color: #515151;
+        height: auto;
+        width: auto;
+        margin: 7px auto 0;
+        text-align: center;
+    }
+
+    /* parágrafo/texto de apresentação */
+    .presentation-paragraph {
+        display: none;
+    }
+
+    /* botão para explorar/conhecer os serviços*/
+    .explore-button {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34.13px;
+        color: rgba(0, 0, 0, 1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(173, 255, 0, 1);
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        width: 239px;
+        height: 64px;
+        margin-top: 17px;
+    }
+
+    /* efeito do pré-click do botão de login */
+    .explore-button:hover {
+        opacity: 0.8;
+    }
+
+    /* efeito do click-ativo do botão de login */
+    .explore-button:active {
+        opacity: 0.4;
+    }
+}
