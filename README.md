@@ -26,7 +26,7 @@ O layout se adapta bem a diferentes dispositivos, oferecendo uma interface consi
 
 ### 💻 Versão Desktop
 
-![Versão Desktop]()
+![Versão Desktop](https://perimadson35.github.io/Projeto-Figma-Devclub/)
 
 ### 📱 Versão Mobile
 
